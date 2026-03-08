@@ -70,7 +70,7 @@ makedepends=(
   "${_guideps[@]}"
 )
 options=('!lto') # https://bugs.archlinux.org/task/72600
-source=("HandBrake::git+https://github.com/HandBrake/HandBrake.git" "HandBrake-SVT-AV1-Tritium::git+https://github.com/Uranite/HandBrake-SVT-AV1-Tritium.git")
+source=("HandBrake::git+https://github.com/HandBrake/HandBrake.git" "HandBrake-SVT-AV1-Tritium::git+https://github.com/flesnuk/HandBrake-SVT-AV1-Tritium.git")
 sha256sums=('SKIP' 'SKIP')
 
 pkgver() {
